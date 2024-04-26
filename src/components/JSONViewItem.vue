@@ -148,7 +148,7 @@
                 :v-html="data.value"
                 :style="getValueStyle(data.value)"
             >
-                <slot name="dataValue" /> {{ data.value }}
+                <!-- <slot name="dataValue" /> {{ data.value }} -->
             </span>
             <span
                 v-else
